@@ -1,5 +1,5 @@
 const Customer = require('../models/customer');
-const Order = require('../models/Order');
+const Order = require('../models/order');
 
 exports.ingestCustomer = async (req, res) => {
   try {

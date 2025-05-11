@@ -1,5 +1,5 @@
 const Customer = require('../models/customer');
-const Campaign = require('../models/Campaign');
+const Campaign = require('../models/campaign');
 const { convertRulesToQuery } = require('../utils/ruleParser');
 
 exports.getAllCampaigns = async (req, res) => {
