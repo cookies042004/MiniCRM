@@ -26,7 +26,7 @@ const Login = () => {
     try {
       const endpoint = mode === "signup" ? "/api/auth/register" : "/api/auth/login";
       const body = mode === "signup" ? { name, email, password } : { email, password };
-      const res = await axios.post("http://localhost:4000" + endpoint, body);
+      const res = await axios.post("https://minicrm-1-zxyz.onrender.com" + endpoint, body);
 
       if (mode === "login") {
         login(res.data.token);

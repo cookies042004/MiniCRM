@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://minicrm-1-zxyz.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
