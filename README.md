@@ -47,6 +47,5 @@ JWT_SECRET=your_secret
 cd frontend
 npm install
 npm start
-do setup for firebase using firebase console
 ```
-
+Note: Do setup for firebase using firebase console(if want google authentication)
